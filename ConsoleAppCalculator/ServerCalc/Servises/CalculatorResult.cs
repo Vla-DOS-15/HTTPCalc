@@ -1,0 +1,8 @@
+﻿namespace lametsy_server
+{
+    public class CalculatorResult
+    {
+        public decimal? OperationResult { get; internal set; }
+        public string? Error { get; internal set; }
+    }
+}
